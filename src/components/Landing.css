@@ -1,16 +1,61 @@
-.landing {
+/* General Body Styles */
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #2f3136; /* Dark background for the overall page */
+        margin: 0;
+        padding: 0;
+        color: #e5e5e5; /* Light text for good contrast */
+      }
+      
+      /* Center the content in the page */
+      .landing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
         text-align: center;
-        background-color: #ffebcd;
-        padding: 50px;
+        padding: 20px;
       }
       
-      .landing h1 {
-        font-family: 'Pacifico', cursive;
-        color: #ff7f50;
+      /* Heading Styles */
+      h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #00b0b9; /* Discord teal color */
+        margin-bottom: 30px;
       }
       
-      .landing p {
-        font-family: 'Dancing Script', cursive;
-        color: #2f4f4f;
+      /* Paragraph Style */
+      p {
+        font-size: 1.25rem;
+        color: #f0f0f0;
+        margin: 15px 0;
       }
+      
+      /* Button Styles */
+      .sister-button {
+        background-color: #1f9c8b; /* Teal color */
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 15px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+      }
+      
+      /* Button Hover Effects */
+      .sister-button:hover {
+        background-color: #1a7a6d; /* Slightly darker teal for hover */
+        transform: scale(1.05); /* Subtle scale-up effect */
+      }
+      
+      /* Link styling */
+      a {
+        text-decoration: none;
+      }
+      
       

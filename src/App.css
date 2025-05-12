@@ -1,10 +1,31 @@
 .App {
   font-family: 'Arial', sans-serif;
-  background-color: #f0f8ff;
+  background-color: #36393f;  /* Discord dark background */
+  color: #f6f6f6;  /* Light gray text */
   padding: 20px;
 }
 
-h2 {
-  font-family: 'Pacifico', cursive;
-  color: #ff6347;
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  color: #1f9c8b;  /* Teal color for headers */
+}
+
+p {
+  color: #b9bbbe;  /* Light grayish color for text */
+}
+
+button {
+  background-color: #1f9c8b;  /* Teal button background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #1a7a6d;  /* Darker teal on hover */
+  transform: scale(1.05);
 }

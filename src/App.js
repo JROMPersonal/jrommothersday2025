@@ -1,20 +1,21 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Landing from './components/Landing';
-import GoldenRetriever from './components/GoldenRetriever';
-import MalibuRum from './components/MalibuRum';
-import PalmBeach from './components/PalmBeach';
-import FinalNote from './components/FinalNote';
+import CarliePage from './components/CarliePage';
+import SarahPage from './components/SarahPage';
+import KelliePage from './components/KelliePage';
 
 function App() {
   return (
-    <div className="App">
-      <Landing />
-      <GoldenRetriever />
-      <MalibuRum />
-      <PalmBeach />
-      <FinalNote />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/kellie" element={<KelliePage />} />
+        <Route path="/carlie" element={<CarliePage />} />
+        <Route path="/sarah" element={<SarahPage />} />
+      </Routes>
+    </Router>
   );
 }
 
