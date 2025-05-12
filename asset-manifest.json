@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jrommothersday2025/static/css/main.812ab200.css",
+    "main.js": "/jrommothersday2025/static/js/main.efd9d2a8.js",
+    "static/js/453.22f8dc3b.chunk.js": "/jrommothersday2025/static/js/453.22f8dc3b.chunk.js",
+    "index.html": "/jrommothersday2025/index.html",
+    "main.812ab200.css.map": "/jrommothersday2025/static/css/main.812ab200.css.map",
+    "main.efd9d2a8.js.map": "/jrommothersday2025/static/js/main.efd9d2a8.js.map",
+    "453.22f8dc3b.chunk.js.map": "/jrommothersday2025/static/js/453.22f8dc3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.812ab200.css",
+    "static/js/main.efd9d2a8.js"
+  ]
+}
