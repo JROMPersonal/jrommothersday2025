@@ -1,0 +1,16 @@
+.landing {
+        text-align: center;
+        background-color: #ffebcd;
+        padding: 50px;
+      }
+      
+      .landing h1 {
+        font-family: 'Pacifico', cursive;
+        color: #ff7f50;
+      }
+      
+      .landing p {
+        font-family: 'Dancing Script', cursive;
+        color: #2f4f4f;
+      }
+      

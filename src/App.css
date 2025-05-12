@@ -1,5 +1,10 @@
-/* src/App.css */
 .App {
-  text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: #ff6347;
 }

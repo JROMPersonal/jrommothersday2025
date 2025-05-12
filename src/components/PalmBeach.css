@@ -1,0 +1,16 @@
+.palm-beach {
+        text-align: center;
+        margin: 50px;
+      }
+      
+      .beach-image {
+        max-width: 100%;
+        height: auto;
+        animation: slideIn 2s ease-in;
+      }
+      
+      @keyframes slideIn {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(0); }
+      }
+      
