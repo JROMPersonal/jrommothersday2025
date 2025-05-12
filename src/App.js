@@ -8,7 +8,7 @@ import KelliePage from './components/KelliePage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/kellie" element={<KelliePage />} />
