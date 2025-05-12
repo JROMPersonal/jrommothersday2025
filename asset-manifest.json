@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jrommothersday2025/static/css/main.dd04c244.css",
-    "main.js": "/jrommothersday2025/static/js/main.784f3d5e.js",
+    "main.css": "/jrommothersday2025/static/css/main.c3a9292c.css",
+    "main.js": "/jrommothersday2025/static/js/main.4b7cebe9.js",
     "static/js/453.22f8dc3b.chunk.js": "/jrommothersday2025/static/js/453.22f8dc3b.chunk.js",
     "index.html": "/jrommothersday2025/index.html",
-    "main.dd04c244.css.map": "/jrommothersday2025/static/css/main.dd04c244.css.map",
-    "main.784f3d5e.js.map": "/jrommothersday2025/static/js/main.784f3d5e.js.map",
+    "main.c3a9292c.css.map": "/jrommothersday2025/static/css/main.c3a9292c.css.map",
+    "main.4b7cebe9.js.map": "/jrommothersday2025/static/js/main.4b7cebe9.js.map",
     "453.22f8dc3b.chunk.js.map": "/jrommothersday2025/static/js/453.22f8dc3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd04c244.css",
-    "static/js/main.784f3d5e.js"
+    "static/css/main.c3a9292c.css",
+    "static/js/main.4b7cebe9.js"
   ]
 }
