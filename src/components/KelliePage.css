@@ -4,4 +4,24 @@
         color: #f6f6f6;
         padding: 20px;
       }
+      .back-button {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin: 40px auto 0;
+        padding: 16px;
+        background-color: #5865F2; /* Discord blurple */
+        color: white;
+        font-size: 1.1rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+      
+      .back-button:hover {
+        background-color: #4752c4;
+        transform: scale(1.02);
+      }
       
